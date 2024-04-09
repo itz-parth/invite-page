@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: 'letter';
+    src: url('./CarryYouRegular-3z71M.ttf');
+}
+body{
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: antiquewhite;
+    height: 90vh;
+    width: 90%;
+    margin-top: 30px;
+    display: flex;
+    /* justify-content: center; */
+    align-items:  center;
+    flex-direction: column;
+    -webkit-box-shadow: 12px 16px 20px -11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 12px 16px 20px -11px rgba(0,0,0,0.75);
+    box-shadow: 12px 16px 20px -11px rgba(0,0,0,0.75);
+}
+h1{
+    font-family: letter;
+    margin: 20px 0 ;
+}
+p{
+    font-family: letter;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.btn{
+    font-family: Roboto, sans-serif;
+    font-weight: 0;
+    font-size: 14px;
+    color: #fff;
+    background: linear-gradient(90deg, #0066CC 2%, #c500cc 100%);
+    padding: 10px 30px;
+    border: 2px solid #0066cc;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 10px;
+    transition : 1000ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 30px;
+}
+iframe{
+    width: 70vw;
+    display: none;
+}
+h3{
+    font-size: small;
+    margin: 10px;
+}
+
